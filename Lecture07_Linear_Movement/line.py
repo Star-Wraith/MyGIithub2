@@ -91,12 +91,11 @@ def draw_line(p1, p2):
 
 prepare_turtle_canvas()
 
-p1 = -100, -100
-p2 = 300, 150
+
 
 p1 = -200, -300
 p2 = 200, 300
 
-# draw_line_basic(p1, p2)
-draw_line(p1, p2)
+draw_line_basic(p1, p2)
+# draw_line(p1, p2)
 turtle.done()
